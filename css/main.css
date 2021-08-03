@@ -87,6 +87,136 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ===== Base Header and Footer styles ===== */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Header styles */
+
+header {
+
+}
+
+header .content-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+header nav {
+  width: 100%;
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+
+}
+
+footer .content-wrapper {
+  width: 100%;
+
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px auto;
+}
+
+footer .copyright {
+
+}
+
+/* ===== Mobile styles - homepage ===== */
+
+.hero-area {
+
+}
+
+aside {
+
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.features .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features-items {
+  text-align: center;
+}
+
+.reviews {
+
+}
+
+/* ===== Mobile styles - About page ===== */
+
+.mission {
+
+}
+
+.map {
+
+}
+
+.contact-section {
+
+}
+
+/* ===== Mobile styles - FAQ page ===== */
+
+.faq {
+
+}
+
+.content-wrapper {
+
+}
+
+.faq-content {
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
