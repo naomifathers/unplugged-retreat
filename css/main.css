@@ -380,9 +380,9 @@
      These examples override the primary ('mobile first') styles.
      ========================================================================== */
   
-     @media only screen and (min-width:768px) {
+     /* ---------- TABLET STYLES ---------- */
 
-      /* ---------- TABLET STYLES ---------- */
+     @media only screen and (min-width:768px) {
 
       /* ----- HOMEPAGE ----- */
     
@@ -514,7 +514,67 @@
       .faq h2 {
         width: 100%;
       }
+  
+
+    /* ---------- DESKTOP STYLES ---------- */ 
+
+    @media only screen and (min-width: 1200px) { 
+
+    /* ----- HOMEPAGE ----- */
+
+    /* --- GENERAL --- */
+
+    .content-wrapper {
+      max-width: 960px;
     }
+
+    /* --- HERO AREA --- */
+
+    .hero-area h1 {
+        width: 60%;
+    }
+
+    /* --- ASIDE --- */
+
+    aside .content-wrapper {
+        justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 30%;
+    }
+
+    /* --- FEATURES --- */
+
+    .features h2 {
+        width: 90%; 
+    }
+
+    .features article {
+        flex-basis: 33%;
+    }
+
+    /* --- REVIEWS --- */ 
+
+    .reviews article div {
+        width: 42%;
+    }
+
+    /* ----- ABOUT PAGE ----- */
+
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 95%; 
+    }
+
+    /* ----- FAQ PAGE ----- */
+
+    .faq h2 {
+        width: 100%;
+    }
+
+  }
   
   @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
