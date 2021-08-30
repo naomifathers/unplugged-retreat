@@ -117,6 +117,11 @@
     color: #e2e3ed;
     text-decoration: none;
   }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+  }
   
   h2 {
     font-family: 'Poppins', sans-serif;
@@ -149,7 +154,6 @@
   }
   
   .content-wrapper {
-    margin: 50px 0;
     width: 90%;
   }
   
@@ -158,6 +162,7 @@
   header,
   footer {
     align-items: center;
+    background-color: #202322;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -166,6 +171,11 @@
   header {
     padding: 15px 0;
   }
+
+  header img {
+    margin: 0 65px;
+    width: 60%;
+  }
   
   header .content-wrapper {
     align-items: center;
@@ -173,42 +183,44 @@
     flex-flow: row wrap;
     justify-content: center;
     margin: 0;
-  }
-  
-  .header-divider {
-    height: 1px;
-    margin: 10px 0 20px 0;
     width: 100%;
   }
   
+  .header-divider {
+    background-color: #e2e3ed;
+    height: 1px;
+    margin: 10px 0 20px 0;
+    min-width: 100%;
+  }
+  
   header nav {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    display: flex;
     flex-flow: row wrap;
+    font-size: 1.2em;
+    font-weight: bold;
+    justify-content: space-around;
     width: 60%;
   }
   
   header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
     width: 100%;
   }
   
   footer {
+    color: #e2e3ed;
     flex-direction: column;
     text-align: center;
+    padding: 40px 0 0 0;
   }
   
   footer p {
     margin: 0;
-  }
-  
-  footer .content-wrapper {
-    margin: 50px 0;
-    
   }
   
   footer .contact {
@@ -236,26 +248,68 @@
   /* HERO AREA */
   
   .hero-area {
+    background-image: url('../img/jake-melara-30679-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
+    height: 500px;
     justify-content: center;
+  }
+
+  .hero-area h1 {
+    color: #e2e3ed;
   }
   
   /* ASIDE */
   
   aside {
     align-items: center;
+    background-color: #527158;
+    color: #e2e3ed;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 25px 0 50px 0;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+  
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
   
   /* FEATURES */
   
   .features {
+    color: #e2e3ed;
+    background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 43px 0 60px 0;
   }
   
   .features h2 {
@@ -264,6 +318,7 @@
   
   .features article {
     margin: 30px 0;
+    text-align: center;
     width: 63%;
   }
   
@@ -281,34 +336,47 @@
   /* REVIEWS */
   
   .reviews {
+    color: #e2e3ed;
+    background-color: #2a423a;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 50px 0 50px 0;
   }
   
   .reviews h2 {
     margin-bottom: 40px;
   }
+
+  .reviews img {
+    width: 100%;
+  }
   
   .reviews h3 {
     margin: 20px 0;
-    width: 55%;
+    width: 65%;
   }
   
   /* -------------------- ABOUT PAGE -------------------- */
   
   .mission {
     align-items: center;
+    background-color: #527158;
+    color: #e2e3ed;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 45px 0;
   }
   
   .contact-section {
     align-items: center;
+    background-color: #2a423a;
+    color: #e2e3ed;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 45px 0;
   }
   
   .contact-content p {
@@ -319,6 +387,8 @@
   
   .faq {
     align-items: center;
+    background-color: #527158;
+    color: #e2e3ed;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;    
@@ -329,15 +399,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 50px 0 0 0;
+    margin: 50px 0;
   }
-  
+
   .faq h2 {
-    margin-bottom: 40px;
+    margin: 0;
   }
-  
+
   .faq-content {
-    margin-bottom: 50px;
+    margin: 40px 0 0 0;
   }
   
   /* ==========================================================================
