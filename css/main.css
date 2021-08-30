@@ -524,6 +524,9 @@
 
       header figure {
         width: 35%;
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
       }
     
       header nav {
