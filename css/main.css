@@ -141,11 +141,11 @@
   }
   
   img {
-  
+    width: 100%;  
   }
   
   figure {
-  
+    margin: 0;
   }
   
   address {
@@ -172,7 +172,7 @@
     padding: 15px 0;
   }
 
-  header img {
+  header figure {
     margin: 0 65px;
     width: 60%;
   }
@@ -513,13 +513,17 @@
       /* --- HEADER --- */
 
       header {
-        justify-content: space-around;
+        justify-content: center;
         padding: 33px 0;
       }
     
       header .content-wrapper {
         justify-content: space-between;
         width: 100%;
+      }
+
+      header figure {
+        width: 35%;
       }
     
       header nav {
@@ -571,7 +575,18 @@
       }
     
       .reviews article div {
-        width: 49%;
+        padding-left: 10px;
+        width: 50%;
+      }
+
+      .reviews figure {
+        padding-right: 10px;
+        width: 50%;
+      }
+
+      .reviews h3 {
+        margin: 0;
+        width: 100%;
       }
     
       /* --- FOOTER --- */
