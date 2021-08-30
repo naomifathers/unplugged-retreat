@@ -248,8 +248,7 @@
   /* HERO AREA */
   
   .hero-area {
-    background-image: url('../img/jake-melara-30679-unsplash.jpg');
-    background-position: center;
+    background: url('../img/hero.jpg') center no-repeat #333;
     background-size: cover;
     display: flex;
     flex-flow: row wrap;
@@ -303,7 +302,7 @@
   
   .features {
     color: #e2e3ed;
-    background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+    background-image: url('../img/feature.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
