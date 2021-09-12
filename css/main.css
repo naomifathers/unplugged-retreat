@@ -530,7 +530,7 @@
       .content-wrapper {
         margin: 100px 0;
         max-width: 640px;
-      }
+      }   
     
       /* --- HEADER --- */
 
@@ -613,16 +613,15 @@
         margin: 0;
         width: 100%;
       }
-    
+
       /* --- FOOTER --- */
 
       footer .content-wrapper {
         margin: 100px 0;
-        width: 65%;
+        width: 85%;
       }
     
       .footer-content {
-        align-items: center;
         display: flex;
         justify-content: space-between;
       }
@@ -631,10 +630,18 @@
         margin-bottom: 0;
       }
     
+      footer .contact,
+      footer .social {
+        width: 50%;
+      }
+
       footer .copyright {
+        margin-top: 80px;
+        margin-bottom: 0;
         width: 100%;
       }
     
+      
      /* ----- ABOUT PAGE ----- */
 
       .mission-content {
